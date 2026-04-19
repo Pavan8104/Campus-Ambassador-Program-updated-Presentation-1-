@@ -11,11 +11,12 @@ import { RewardsSlide } from './components/slides/RewardsSlide';
 import { WhyJoinSlide } from './components/slides/WhyJoinSlide';
 import { LeadershipSlide } from './components/slides/LeadershipSlide';
 import { LeadingTeamNoteSlide } from './components/slides/LeadingTeamNoteSlide';
+import { GettingStartedSlide } from './components/slides/GettingStartedSlide';
 import { CTASlide } from './components/slides/CTASlide';
 
 export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 11;
+  const totalSlides = 12;
 
   const nextSlide = () => {
     if (currentSlide < totalSlides - 1) {
@@ -50,6 +51,7 @@ export default function App() {
     <WhyJoinSlide key="why" />,
     <LeadershipSlide key="leadership" />,
     <LeadingTeamNoteSlide key="leadingnote" />,
+    <GettingStartedSlide key="gettingstarted" />,
     <CTASlide key="cta" />
   ];
 
