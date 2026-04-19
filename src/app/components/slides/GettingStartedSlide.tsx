@@ -3,10 +3,6 @@ import {
   MessageCircle,
   Send,
   LayoutDashboard,
-  BarChart3,
-  Target,
-  TrendingUp,
-  Trophy,
   Share2,
   BookOpen,
   Megaphone,
@@ -37,10 +33,10 @@ export function GettingStartedSlide() {
   ];
 
   const dashboardFeatures = [
-    { icon: BarChart3, text: 'Track every referral you make', emoji: '📊' },
-    { icon: Target, text: 'Monitor milestones & rewards', emoji: '🎯' },
-    { icon: TrendingUp, text: 'Analyze performance & growth', emoji: '📈' },
-    { icon: Trophy, text: 'Stay motivated by hitting targets', emoji: '🏆' }
+    { text: 'Track every referral you make', emoji: '📊' },
+    { text: 'Monitor milestones & rewards', emoji: '🎯' },
+    { text: 'Analyze performance & growth', emoji: '📈' },
+    { text: 'Stay motivated by hitting targets', emoji: '🏆' }
   ];
 
   const successTips = [
@@ -179,9 +175,6 @@ export function GettingStartedSlide() {
                   className="flex items-center gap-2.5 p-2 sm:p-2.5 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors"
                 >
                   <span className="text-base sm:text-lg">{feature.emoji}</span>
-                  <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-md bg-gradient-to-br from-[#6DD5ED]/20 to-[#001A72]/20 flex items-center justify-center flex-shrink-0">
-                    <feature.icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#001A72]" />
-                  </div>
                   <p className="text-[11px] sm:text-xs md:text-sm font-medium text-slate-700">{feature.text}</p>
                 </motion.div>
               ))}
@@ -221,9 +214,8 @@ export function GettingStartedSlide() {
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.4, delay: 0.5 + index * 0.08 }}
-                  className={`flex items-start gap-2 p-2 sm:p-2.5 rounded-lg bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors ${
-                    index === 4 ? 'sm:col-span-2' : ''
-                  }`}
+                  className={`flex items-start gap-2 p-2 sm:p-2.5 rounded-lg bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-colors ${index === 4 ? 'sm:col-span-2' : ''
+                    }`}
                 >
                   <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <tip.icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
