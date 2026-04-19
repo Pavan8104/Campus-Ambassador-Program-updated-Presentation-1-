@@ -83,7 +83,7 @@ export function RewardsSlide() {
               <div className="space-y-3 sm:space-y-4">
                 {/* Icon */}
                 <div className={`w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl sm:rounded-2xl bg-gradient-to-br ${reward.color} p-2 sm:p-2.5 md:p-3 flex items-center justify-center shadow-lg`}>
-                  <reward.icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+                  <reward.icon size={24} className="text-white" />
                 </div>
 
                 {/* Points */}

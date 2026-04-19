@@ -78,7 +78,7 @@ export function LeadershipSlide() {
 
                 {/* Social icons */}
                 <div className="flex gap-2 sm:gap-3 pt-1 sm:pt-2">
-                  <a 
+                  <a
                     href={leader.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"

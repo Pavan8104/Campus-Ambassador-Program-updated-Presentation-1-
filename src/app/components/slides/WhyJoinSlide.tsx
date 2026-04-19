@@ -51,7 +51,7 @@ export function WhyJoinSlide() {
               <div className="flex items-center gap-4 sm:gap-5 md:gap-6">
                 {/* Icon */}
                 <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#6DD5ED] to-[#001A72] p-2 sm:p-2.5 md:p-3 flex items-center justify-center flex-shrink-0 shadow-lg">
-                  <reason.icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8 text-white" />
+  <reason.icon size={24} className="text-white" />
                 </div>
 
                 {/* Text */}

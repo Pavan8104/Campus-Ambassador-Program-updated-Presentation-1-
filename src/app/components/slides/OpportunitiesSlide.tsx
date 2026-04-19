@@ -46,7 +46,7 @@ export function OpportunitiesSlide() {
                 >
                   {/* Icon */}
                   <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#6DD5ED] to-[#001A72] p-3 sm:p-3.5 md:p-4 flex items-center justify-center shadow-lg">
-                    <opportunity.icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
+  <opportunity.icon size={24} className="text-white" />
                   </div>
 
                   {/* Label */}

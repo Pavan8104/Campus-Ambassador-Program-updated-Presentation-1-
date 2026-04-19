@@ -5,9 +5,9 @@
 
   ## Running the code
 
-  Run `npm i` to install the dependencies.
+  Run `pnpm install` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
+  Run `pnpm dev` to start the development server.
   # 🚀 Campus Ambassador Program – Interactive Presentation
 
 <p align="center">
@@ -80,8 +80,8 @@ src/
 ```bash
 git clone https://github.com/Pavan8104/Campus-Ambassador-Program-updated-Presentation-1-
 cd Campus-Ambassador-Program-updated-Presentation-1-
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 👉 Open: http://localhost:5173

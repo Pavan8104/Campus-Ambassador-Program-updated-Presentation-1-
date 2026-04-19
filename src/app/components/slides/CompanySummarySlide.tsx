@@ -72,7 +72,7 @@ export function CompanySummarySlide() {
               <div className="space-y-2 sm:space-y-3">
                 {/* Icon */}
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-[#6DD5ED] to-[#001A72] p-2 sm:p-3 flex items-center justify-center shadow-md">
-                  <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                  <item.icon size={20} className="text-white" />
                 </div>
 
                 {/* Content */}

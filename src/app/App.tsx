@@ -56,7 +56,7 @@ export default function App() {
   ];
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="relative w-full min-h-screen overflow-y-auto bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-[#6DD5ED] to-[#001A72] rounded-full blur-3xl" />
@@ -64,7 +64,7 @@ export default function App() {
       </div>
 
       {/* Slides container */}
-      <div className="relative w-full h-full flex items-center justify-center">
+      <div className="relative w-full min-h-full flex items-start justify-center">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
@@ -95,11 +95,10 @@ export default function App() {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`h-1.5 sm:h-2 rounded-full transition-all ${
-                index === currentSlide
+              className={`h-1.5 sm:h-2 rounded-full transition-all ${index === currentSlide
                   ? 'w-6 sm:w-8 bg-gradient-to-r from-[#6DD5ED] to-[#001A72]'
                   : 'w-1.5 sm:w-2 bg-slate-300 hover:bg-slate-400'
-              }`}
+                }`}
             />
           ))}
         </div>

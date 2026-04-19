@@ -41,7 +41,7 @@ export function AchievementSlide() {
                 <div className="flex items-center gap-5">
                   {/* Icon */}
                   <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#6DD5ED] to-[#001A72] p-3 flex items-center justify-center flex-shrink-0 shadow-md">
-                    <step.icon className="w-7 h-7 text-white" />
+                    <step.icon size={28} className="text-white" />
                   </div>
 
                   {/* Content */}

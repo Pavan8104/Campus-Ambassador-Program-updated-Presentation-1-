@@ -60,7 +60,7 @@ export function RolesSlide() {
               <div className="space-y-4 sm:space-y-5 md:space-y-6">
                 {/* Icon */}
                 <div className={`w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-xl sm:rounded-2xl bg-gradient-to-br ${role.color} p-3 sm:p-3.5 md:p-4 flex items-center justify-center shadow-lg`}>
-                  <role.icon className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-white" />
+  <role.icon size={24} className="text-white" />
                 </div>
 
                 {/* Text */}
